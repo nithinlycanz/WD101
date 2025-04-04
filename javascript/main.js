@@ -69,3 +69,48 @@ if the email address contains @gmail.com then it should not be used */
 //     console.log("The password is not 8 characters long");
 //  }
 // }
+let printpassstat = (pass1, pass2) =>{
+
+
+    
+     
+    let passMatch= pass1 === pass2;
+    
+    let passlength = pass1.length >= 8;
+    
+    let passValid = passMatch && passlength;
+    if (passValid){
+        console.log("pass valid")
+        }else{
+            console.log("pass not valid")
+    
+            if (!passMatch){
+                console.log("password don't match");
+    
+            }
+    
+            if (!passlength){
+                console.log("password length should be 8 digits");
+            }
+    
+        }
+}
+// let passwrd1= "12345678";
+//     let passwrd2= "12345678";
+// printpassstat(passwrd1, passwrd2);
+printpassstat("lolaaemm", "lolaaemm");
+
+let mane= "nithu" ;
+let mane2= "nithu" ;
+let lol = mane.concat(mane2);
+console.log(lol);
+let passwrd1= "12345678";
+    let passwrd2= "12345678";
+
+let lol1= passwrd1.concat(passwrd2);
+let lol2 = lol1.split("");
+console.log(lol2);
+let lol3 = ["banana" ,"apple",  "cherry"];
+console.log(lol3);
+lol2.sort();
+console.log(lol2);
