@@ -25,15 +25,15 @@
 //  arr.forEach(add);
 //  console.log(sum);
 
- let paradigms = [];
- paradigms.push("object-oriented");
- paradigms.push("functional");
-    paradigms.push("procedural");
-    paradigms.push("declarative");
+//  let paradigms = [];
+//  paradigms.push("object-oriented");
+//  paradigms.push("functional");
+//     paradigms.push("procedural");
+//     paradigms.push("declarative");
 
-console.log(paradigms); 
-paradigms.forEach(value => console.log(value));
+// console.log(paradigms); 
+// paradigms.forEach(value => console.log(value));
 
-let getall = value => console.log(value);
+// let getall = value => console.log(value);
 
-paradigms.forEach(getall); // object-oriented functional procedural declarative
+// paradigms.forEach(getall); // object-oriented functional procedural declarative
